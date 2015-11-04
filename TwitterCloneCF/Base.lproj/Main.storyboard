@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Tweet View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TwitterCloneCF" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="TweetViewController" customModule="TwitterCloneCF" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -32,10 +32,10 @@
             </objects>
             <point key="canvasLocation" x="812" y="-380"/>
         </scene>
-        <!--View Controller-->
+        <!--Tweet Detail View Controller-->
         <scene sceneID="25d-XH-VKZ">
             <objects>
-                <viewController id="3zn-P5-D0I" sceneMemberID="viewController">
+                <viewController id="3zn-P5-D0I" customClass="TweetDetailViewController" customModule="TwitterCloneCF" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BfZ-Mk-QwG"/>
                         <viewControllerLayoutGuide type="bottom" id="gpN-dq-xcD"/>
@@ -45,9 +45,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gjN-XR-pqQ">
-                                <rect key="frame" x="-141" y="15" width="600" height="44"/>
+                                <rect key="frame" x="-141" y="15" width="741" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="gbr-7G-EgC"/>
+                                    <navigationItem title="DetailViewController" id="gbr-7G-EgC"/>
                                 </items>
                             </navigationBar>
                         </subviews>

@@ -1,5 +1,5 @@
 //
-//  DetailViewController.swift
+//  TweetDetailViewController.swift
 //  TwitterCloneCF
 //
 //  Created by Cynthia Whitlatch on 11/3/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class TweetDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

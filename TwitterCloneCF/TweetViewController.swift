@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TweetViewController.swift
 //  TwitterCloneCF
 //
 //  Created by Cynthia Whitlatch on 11/3/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TweetViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

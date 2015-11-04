@@ -8,13 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		3D9D2E501BE9806400963443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D2E4F1BE9806400963443 /* AppDelegate.swift */; };
-		3D9D2E521BE9806400963443 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D2E511BE9806400963443 /* ViewController.swift */; };
+		3D9D2E521BE9806400963443 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D2E511BE9806400963443 /* TweetViewController.swift */; };
 		3D9D2E551BE9806500963443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D2E531BE9806500963443 /* Main.storyboard */; };
 		3D9D2E571BE9806500963443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D2E561BE9806500963443 /* Assets.xcassets */; };
 		3D9D2E5A1BE9806500963443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D2E581BE9806500963443 /* LaunchScreen.storyboard */; };
 		3D9D2E651BE9806500963443 /* TwitterCloneCFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D2E641BE9806500963443 /* TwitterCloneCFTests.swift */; };
 		3D9D2E701BE9806500963443 /* TwitterCloneCFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D2E6F1BE9806500963443 /* TwitterCloneCFUITests.swift */; };
-		3D9D2E7E1BE9820800963443 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D2E7D1BE9820800963443 /* DetailViewController.swift */; };
+		3D9D2E7E1BE9820800963443 /* TweetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D2E7D1BE9820800963443 /* TweetDetailViewController.swift */; };
+		3D9D2E801BE9826400963443 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D2E7F1BE9826400963443 /* Tweet.swift */; };
+		3D9D2E821BE9826C00963443 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D2E811BE9826C00963443 /* User.swift */; };
+		3D9D2E841BE9827A00963443 /* UserJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D2E831BE9827A00963443 /* UserJSON.swift */; };
+		3D9D2E861BE982BF00963443 /* customTweetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D2E851BE982BF00963443 /* customTweetCell.xib */; };
+		3D9D2E881BE9846D00963443 /* TweetJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D2E871BE9846D00963443 /* TweetJSONParser.swift */; };
+		3D9D2E8C1BE984E200963443 /* TweetCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D2E8B1BE984E200963443 /* TweetCustomTableViewCell.swift */; };
+		3D9D2E8E1BE9854400963443 /* TwitterLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D2E8D1BE9854400963443 /* TwitterLoginService.swift */; };
+		3D9D2E901BE9857200963443 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9D2E8F1BE9857200963443 /* Social.framework */; };
+		3D9D2E921BE9857F00963443 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9D2E911BE9857F00963443 /* Accounts.framework */; };
+		3D9D2E941BE9858A00963443 /* instagram.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D2E931BE9858A00963443 /* instagram.json */; };
+		3D9D2E961BE9859800963443 /* tweet.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D2E951BE9859800963443 /* tweet.json */; };
+		3D9D2E981BE985A200963443 /* ganesh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D2E971BE985A200963443 /* ganesh.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +49,7 @@
 /* Begin PBXFileReference section */
 		3D9D2E4C1BE9806400963443 /* TwitterCloneCF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterCloneCF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9D2E4F1BE9806400963443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D9D2E511BE9806400963443 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D9D2E511BE9806400963443 /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
 		3D9D2E541BE9806500963443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D9D2E561BE9806500963443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D9D2E591BE9806500963443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,7 +60,19 @@
 		3D9D2E6B1BE9806500963443 /* TwitterCloneCFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterCloneCFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9D2E6F1BE9806500963443 /* TwitterCloneCFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCloneCFUITests.swift; sourceTree = "<group>"; };
 		3D9D2E711BE9806600963443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D9D2E7D1BE9820800963443 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3D9D2E7D1BE9820800963443 /* TweetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetDetailViewController.swift; sourceTree = "<group>"; };
+		3D9D2E7F1BE9826400963443 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		3D9D2E811BE9826C00963443 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3D9D2E831BE9827A00963443 /* UserJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserJSON.swift; sourceTree = "<group>"; };
+		3D9D2E851BE982BF00963443 /* customTweetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customTweetCell.xib; sourceTree = "<group>"; };
+		3D9D2E871BE9846D00963443 /* TweetJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetJSONParser.swift; sourceTree = "<group>"; };
+		3D9D2E8B1BE984E200963443 /* TweetCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TweetCustomTableViewCell.swift; path = ../TweetCustomTableViewCell.swift; sourceTree = "<group>"; };
+		3D9D2E8D1BE9854400963443 /* TwitterLoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterLoginService.swift; path = ../TwitterLoginService.swift; sourceTree = "<group>"; };
+		3D9D2E8F1BE9857200963443 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Social.framework; sourceTree = "<group>"; };
+		3D9D2E911BE9857F00963443 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Accounts.framework; sourceTree = "<group>"; };
+		3D9D2E931BE9858A00963443 /* instagram.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = instagram.json; sourceTree = "<group>"; };
+		3D9D2E951BE9859800963443 /* tweet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tweet.json; sourceTree = "<group>"; };
+		3D9D2E971BE985A200963443 /* ganesh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ganesh.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D9D2E921BE9857F00963443 /* Accounts.framework in Frameworks */,
+				3D9D2E901BE9857200963443 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +111,11 @@
 				3D9D2E4D1BE9806400963443 /* Products */,
 				3D9D2E581BE9806500963443 /* LaunchScreen.storyboard */,
 				3D9D2E5B1BE9806500963443 /* Info.plist */,
+				3D9D2E951BE9859800963443 /* tweet.json */,
+				3D9D2E971BE985A200963443 /* ganesh.jpg */,
+				3D9D2E931BE9858A00963443 /* instagram.json */,
+				3D9D2E911BE9857F00963443 /* Accounts.framework */,
+				3D9D2E8F1BE9857200963443 /* Social.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,9 +133,16 @@
 			isa = PBXGroup;
 			children = (
 				3D9D2E531BE9806500963443 /* Main.storyboard */,
-				3D9D2E7D1BE9820800963443 /* DetailViewController.swift */,
+				3D9D2E851BE982BF00963443 /* customTweetCell.xib */,
 				3D9D2E4F1BE9806400963443 /* AppDelegate.swift */,
-				3D9D2E511BE9806400963443 /* ViewController.swift */,
+				3D9D2E7D1BE9820800963443 /* TweetDetailViewController.swift */,
+				3D9D2E511BE9806400963443 /* TweetViewController.swift */,
+				3D9D2E8B1BE984E200963443 /* TweetCustomTableViewCell.swift */,
+				3D9D2E871BE9846D00963443 /* TweetJSONParser.swift */,
+				3D9D2E8D1BE9854400963443 /* TwitterLoginService.swift */,
+				3D9D2E7F1BE9826400963443 /* Tweet.swift */,
+				3D9D2E811BE9826C00963443 /* User.swift */,
+				3D9D2E831BE9827A00963443 /* UserJSON.swift */,
 				3D9D2E561BE9806500963443 /* Assets.xcassets */,
 			);
 			path = TwitterCloneCF;
@@ -232,8 +270,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D9D2E861BE982BF00963443 /* customTweetCell.xib in Resources */,
+				3D9D2E961BE9859800963443 /* tweet.json in Resources */,
+				3D9D2E941BE9858A00963443 /* instagram.json in Resources */,
 				3D9D2E5A1BE9806500963443 /* LaunchScreen.storyboard in Resources */,
 				3D9D2E571BE9806500963443 /* Assets.xcassets in Resources */,
+				3D9D2E981BE985A200963443 /* ganesh.jpg in Resources */,
 				3D9D2E551BE9806500963443 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D9D2E7E1BE9820800963443 /* DetailViewController.swift in Sources */,
-				3D9D2E521BE9806400963443 /* ViewController.swift in Sources */,
+				3D9D2E8C1BE984E200963443 /* TweetCustomTableViewCell.swift in Sources */,
+				3D9D2E881BE9846D00963443 /* TweetJSONParser.swift in Sources */,
+				3D9D2E7E1BE9820800963443 /* TweetDetailViewController.swift in Sources */,
+				3D9D2E521BE9806400963443 /* TweetViewController.swift in Sources */,
+				3D9D2E841BE9827A00963443 /* UserJSON.swift in Sources */,
 				3D9D2E501BE9806400963443 /* AppDelegate.swift in Sources */,
+				3D9D2E821BE9826C00963443 /* User.swift in Sources */,
+				3D9D2E8E1BE9854400963443 /* TwitterLoginService.swift in Sources */,
+				3D9D2E801BE9826400963443 /* Tweet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +450,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TwitterCloneCF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cynthia.TwitterCloneCF;
@@ -414,6 +466,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TwitterCloneCF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cynthia.TwitterCloneCF;
